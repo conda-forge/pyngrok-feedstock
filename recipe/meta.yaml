@@ -1,5 +1,5 @@
 {% set name = "pyngrok" %}
-{% set version = "2.1.6" %}
+{% set version = "2.1.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5750689973012881718bd61afe546415e0be5fb43e249a2c7d536b5036b16201
+  sha256: 69ff860bedcdfd8175b2e22af92c1d4cbb9736c9ec121441cbe60d483a5b45c0
 
 build:
   noarch: python
@@ -15,7 +15,7 @@ build:
     - ngrok=pyngrok.ngrok:main
     - pyngrok=pyngrok.ngrok:main
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -35,7 +35,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'A Python wrapper for ngrok'
+  summary: A Python wrapper for ngrok
   description: |
     pyngrok is a Python wrapper for ngrok that manages its own binary and puts it on our path,
     making ngrok readily available from anywhere on the command line and via a convenient

@@ -14,21 +14,24 @@ build:
   entry_points:
     - ngrok=pyngrok.ngrok:main
     - pyngrok=pyngrok.ngrok:main
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - python
     - pip
-    - future
-    - PyYAML
   run:
     - python
+    - future
+    - PyYAML
 
 test:
   imports:
     - pyngrok
+  commands:
+    - ngrok --help
+    - pyngrok --help
 
 about:
   home: https://github.com/alexdlaird/pyngrok

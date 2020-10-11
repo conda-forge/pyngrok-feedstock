@@ -5,9 +5,13 @@ Home: https://github.com/alexdlaird/pyngrok
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyngrok-feedstock/blob/master/LICENSE.txt)
 
 Summary: A Python wrapper for ngrok
+
+Development: https://github.com/alexdlaird/pyngrok
+
+Documentation: https://pyngrok.readthedocs.io/
 
 pyngrok is a Python wrapper for ngrok that manages its own binary and puts it on our path,
 making ngrok readily available from anywhere on the command line and via a convenient

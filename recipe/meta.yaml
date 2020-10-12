@@ -1,5 +1,5 @@
 {% set name = "pyngrok" %}
-{% set version = "4.2.1" %}
+{% set version = "4.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d47a90d0a9829a0d58620360064d4985fced0cd29fd2c516f11fde145a911d46
+  sha256: 98ef4f8a35bdc82d7a5ae1902fa003c4388fcc308f4e5a087fa8937850e55cea
 
 build:
   noarch: python

@@ -1,5 +1,5 @@
 {% set name = "pyngrok" %}
-{% set version = "5.0.2" %}
+{% set version = "5.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e652647ef991f9110eea0cf8ad3f9d9cabaceabc6a8e2a05810dc9f3fd73becc
+  sha256: ec352d4f31dd3088c816855adb06875e7009e1fe1b4b3cee86d709f8ce32bced
 
 build:
   noarch: python
@@ -19,11 +19,10 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.5
     - pip
   run:
-    - python
-    - future
+    - python >=3.5
     - PyYAML
 
 test:

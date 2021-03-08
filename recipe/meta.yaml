@@ -19,11 +19,10 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.5
     - pip
   run:
-    - python
-    - future
+    - python >=3.5
     - PyYAML
 
 test:

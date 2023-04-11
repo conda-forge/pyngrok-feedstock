@@ -1,11 +1,11 @@
-About pyngrok
-=============
+About pyngrok-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyngrok-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/alexdlaird/pyngrok
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyngrok-feedstock/blob/main/LICENSE.txt)
 
 Summary: A Python wrapper for ngrok
 

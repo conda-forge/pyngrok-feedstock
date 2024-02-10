@@ -14,7 +14,7 @@ build:
   entry_points:
     - ngrok=pyngrok.ngrok:main
     - pyngrok=pyngrok.ngrok:main
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - PyYAML
+    - PyYAML >=5.1
 
 test:
   imports:

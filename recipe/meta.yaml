@@ -14,16 +14,16 @@ build:
   entry_points:
     - ngrok=pyngrok.ngrok:main
     - pyngrok=pyngrok.ngrok:main
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
     - setuptools
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - PyYAML >=5.1
 
 test:
@@ -35,6 +35,7 @@ test:
     - pyngrok --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/alexdlaird/pyngrok

@@ -14,7 +14,7 @@ build:
   entry_points:
     - ngrok=pyngrok.ngrok:main
     - pyngrok=pyngrok.ngrok:main
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -44,9 +44,8 @@ about:
   license_file: LICENSE
   summary: A Python wrapper for ngrok
   description: |
-    pyngrok is a Python wrapper for ngrok that manages its own binary and puts it on our path,
-    making ngrok readily available from anywhere on the command line and via a convenient
-    Python API.
+    pyngrok is a Python wrapper for ngrok that manages its own binary, making ngrok available
+    via a convenient Python API and the command line.
   doc_url: https://pyngrok.readthedocs.io/
   dev_url: https://github.com/alexdlaird/pyngrok
 

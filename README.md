@@ -13,9 +13,8 @@ Development: https://github.com/alexdlaird/pyngrok
 
 Documentation: https://pyngrok.readthedocs.io/
 
-pyngrok is a Python wrapper for ngrok that manages its own binary and puts it on our path,
-making ngrok readily available from anywhere on the command line and via a convenient
-Python API.
+pyngrok is a Python wrapper for ngrok that manages its own binary, making ngrok available
+via a convenient Python API and the command line.
 
 
 Current build status

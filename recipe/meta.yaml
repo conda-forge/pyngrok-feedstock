@@ -1,13 +1,13 @@
 {% set name = "pyngrok" %}
-{% set version = "8.1.2" %}
+{% set version = "9.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3b5383ec7dc4646ac0d046435eb58c6cd1cbc9acad70e6dee012b05dc25b070a
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 04dc6e7ea5e9ca5277088ddec76566de5ca5ec0afe575a8ea2ee9ae7855efb00
 
 build:
   noarch: python

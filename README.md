@@ -7,14 +7,15 @@ Home: https://github.com/alexdlaird/pyngrok
 
 Package license: MIT
 
-Summary: A Python wrapper for ngrok
+Summary: A Python wrapper for ngrok; programmatic tunnels for ingress, webhooks, demos, and APIs
 
 Development: https://github.com/alexdlaird/pyngrok
 
 Documentation: https://pyngrok.readthedocs.io/
 
-pyngrok is a Python wrapper for ngrok that manages its own binary, making ngrok available
-via a convenient Python API and the command line.
+pyngrok is a Python wrapper for ngrok that provides programmatic tunnels for ingress, webhooks, demos, and APIs. It
+downloads and manages the ngrok agent for you, making it available through a Python API and the command line. It
+runs anywhere the ngrok agent does. The library is mature and stable, and it tracks new ngrok releases.
 
 
 Current build status

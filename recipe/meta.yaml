@@ -1,5 +1,5 @@
 {% set name = "pyngrok" %}
-{% set version = "9.1.0" %}
+{% set version = "9.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8d9a521d3df29ad3f41523be13f1ef0790592605764d87605937aab20ff67daa
+  sha256: cad663f11b02cfec7e7b55884a69bc54c36088c2671a438497f19ce6a4762567
 
 build:
   noarch: python
